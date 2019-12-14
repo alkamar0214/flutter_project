@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
     ScreenUtil.instance =
         ScreenUtil(width: 750, height: 1334, allowFontScaling: true);
     return new Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.greenAccent,
       resizeToAvoidBottomPadding: true,
       body: Stack(
         fit: StackFit.expand,
